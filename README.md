@@ -73,7 +73,7 @@ Put it all together and your HTML form will look like this:
 **Copy the code below to `views/food_form.erb`:**
 
 ```html
-<form>
+<form method="POST" action="/food">
   <p>Your Name: <input type="text"></p>
   <p>Your Favorite Food: <input type="text"></p>
   <input type="submit">
